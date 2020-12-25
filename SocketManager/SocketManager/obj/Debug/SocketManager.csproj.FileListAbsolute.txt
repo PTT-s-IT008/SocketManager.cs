@@ -1,0 +1,12 @@
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\bin\Debug\SocketManager.exe.config
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\bin\Debug\SocketManager.exe
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\bin\Debug\SocketManager.pdb
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.Form1.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.Properties.Resources.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.csproj.GenerateResource.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.csproj.CoreCompileInputs.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.exe
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.pdb
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.ClientForm.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.ServerForm.resources
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.csprojAssemblyReference.cache
