@@ -16,6 +16,12 @@ namespace SocketManager
         public ClientForm()
         {
             InitializeComponent();
+            client.toScreen = toScreen;
+            
+        }
+        public void toScreen(string s)
+        {
+            richTextBox1.Text += s;
         }
 
         private void button1_Click(object sender, EventArgs e)

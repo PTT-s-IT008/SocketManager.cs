@@ -213,6 +213,8 @@ namespace SocketManager
         public Socket socket;
 
         public Debugger.delDebugger toScreen;
+        public delegate string  getUsername();
+        public getUsername delUserList;
         
 
         public void Initialize()
@@ -240,6 +242,13 @@ namespace SocketManager
                                     toScreen(username + " has got username \n");
                                     break;
 
+                                }
+                            case "get_userlist":
+                                {
+                                    string newdata = "userlist\n";
+                                    newdata += delUserList;
+                                    Send(newdata);
+                                    break;
                                 }
                         }
                         
@@ -394,6 +403,16 @@ namespace SocketManager
                 }
             }
         }
+        
+        public string showUserList()
+        {
+            string userlist="";
+            foreach(User user in userList)
+            {
+                userlist += user.username + '/';
+            }
+            return userlist;
+        }
         #endregion
     }
     public class Client
@@ -401,7 +420,7 @@ namespace SocketManager
         public Socket socket;
         public string username;
         public string IP;
-        
+        public Debugger.delDebugger toScreen;
         
         public bool ConnectServer()
         {
@@ -434,10 +453,13 @@ namespace SocketManager
                                 {
                                     string data = (string)Receive(socket);
                                     // data manipulation
+
+                                    toScreen(data);
                                 }
                                 catch
                                 { }
                             }
+                            
                         });
 
                         receiveData.IsBackground = true;

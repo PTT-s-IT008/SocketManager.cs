@@ -37,6 +37,11 @@ namespace SocketManager
         private void button2_Click(object sender, EventArgs e)
         {
             server.listRender();
+
+            foreach(User user in server.userList)
+            {
+                server.sendDataThroughUsername(user.username, server.showUserList());
+            }
         }
     }
 }

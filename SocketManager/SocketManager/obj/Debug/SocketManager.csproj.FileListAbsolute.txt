@@ -10,3 +10,4 @@ D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\S
 D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.ClientForm.resources
 D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.ServerForm.resources
 D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.csprojAssemblyReference.cache
+D:\TAI_LIEU_THUC_HANH\LTTQ\SocketManager\SocketManager\SocketManager\obj\Debug\SocketManager.userListMember.resources
